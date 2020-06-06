@@ -16,3 +16,10 @@ var isNumber = function(s) {
 
   return true;
 };
+
+
+// var isNumber = function(s) {
+//   if (s == ' ') return false;
+//   return !isNaN(new Number(s));
+// };
+// Runtime: 80 ms, faster than 85.12%
